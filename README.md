@@ -2,5 +2,5 @@
 Showcase site for training, made on October 2020 during my web developer formation <br/>
 With knowledge of HTML & CSS
 
-LANGUAGES
+Languages
 HTML CSS
