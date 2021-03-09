@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="images/faviconPhoto.ico"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header id="haut">
+		<h1><a href="index.html">La Photo.</a></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="prestations.html">Prestations</a></li>
+				<li><a href="apropos.html">A propos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>	
+		</nav>	
+	</header>
+	<section class="bandeau" >
+		<h2>Nous contacter</h2>
+	</section>
+	<div class="contact">
+		<p>Contactez nous afin d'obtenir un devis qui correspond à vos attentes.</p>
+		<!-- <form method="post" action="contact.php"> -->
+		<form>	
+			<label for="nom">Nom:</label>
+			<input type="text" name="nom" id="nom" placeholder="Votre nom">	
+			<label for="prenom">Prénom:</label>
+			<input type="text" name="prenom" id="prenom" placeholder="Votre prénom">	
+			<label for="mail">Mail:</label>
+			<input type="email" name="mail" id="mail" placeholder="Votre mail">	
+			<label for="message">Message:</label>
+			<textarea name="message" id="message" placeholder="Votre message" rows="5" cols="33"></textarea>	
+			<input type="submit" name="submit" value="Envoyer"/>
+		</form>
+	</div>
+	<footer>
+		<h6>© Exemple de Copyright 2020</h6>
+		<a href="#haut"><img src="images/up-arrow.png" height="20px" width="20px" alt="remonter en haut"/></a>
+	</footer>
+</body>
+</html>
